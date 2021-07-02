@@ -136,6 +136,24 @@ $(() => {
 	}
 
 
+	// Аккордион
+	$('body').on('click', '.accordion .item .head', function (e) {
+		e.preventDefault()
+
+		const $item = $(this).closest('.item'),
+			$accordion = $(this).closest('.accordion')
+
+		if ($item.hasClass('active')) {
+			$item.removeClass('active').find('.data').slideUp(300)
+		} else {
+			$accordion.find('.item').removeClass('active')
+			$accordion.find('.data').slideUp(300)
+
+			$item.addClass('active').find('.data').slideDown(300)
+		}
+	})
+
+
 	// Моб. версия
 	if ($(window).width() < 375) $('meta[name=viewport]').attr('content', 'width=375, user-scalable=no')
 

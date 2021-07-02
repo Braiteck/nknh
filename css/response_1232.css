@@ -832,6 +832,61 @@
 
 
 
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .item .data
+    {
+        padding-top: 0;
+        padding-bottom: 28px;
+        padding-left: 28px;
+    }
+
+    .vacancies .item .vacancy + .vacancy
+    {
+        margin-top: 8px;
+    }
+
+
+    .vacancies .item .vacancy .info
+    {
+        margin-top: 16px;
+        margin-bottom: 24px;
+        padding: 24px 28px;
+    }
+
+    .vacancies .item .vacancy .info .section + .section
+    {
+        margin-top: 20px;
+    }
+
+    .vacancies .item .vacancy .info .title
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        margin-bottom: 4px;
+    }
+
+    .vacancies .item .vacancy .info .desc
+    {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+    .vacancies .item .vacancy .info .send
+    {
+        margin-top: 32px;
+    }
+
+    .vacancies .item .vacancy .info .send .title
+    {
+        margin-bottom: 20px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

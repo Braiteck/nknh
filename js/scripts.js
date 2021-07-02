@@ -98,6 +98,15 @@ $(() => {
 	})
 
 
+	// Информация по вакансии
+	$('.vacancies .item .vacancy .name').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+		$(this).next().slideToggle(300)
+	})
+
+
 	// Моб. Меню
 	$('header .menu_btn, .mob_header .mob_menu_btn').click(function (e) {
 		e.preventDefault()

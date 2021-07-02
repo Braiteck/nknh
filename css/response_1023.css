@@ -311,6 +311,17 @@
 
 
 
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .item .vacancy .info .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

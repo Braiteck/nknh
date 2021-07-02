@@ -2352,6 +2352,36 @@ aside .links .sub_links a.active
 }
 
 
+.form .columns
+{
+    margin-left: calc(var(--form_columns_offset) * -1);
+
+    --form_columns_offset: 15px;
+}
+
+.form .columns > *
+{
+    width: calc(50% - var(--form_columns_offset));
+    margin-left: var(--form_columns_offset);
+}
+
+
+.form .columns > *.width1of3
+{
+    width: calc(33.333% - var(--form_columns_offset));
+}
+
+.form .columns > *.width2of3
+{
+    width: calc(66.666% - var(--form_columns_offset));
+}
+
+.form .columns > *.width3of3
+{
+    width: calc(100% - var(--form_columns_offset));
+}
+
+
 .form .line
 {
     margin-bottom: 15px;
@@ -5257,6 +5287,145 @@ aside .links .sub_links a.active
     margin-right: 7px;
 
     fill: currentColor;
+}
+
+
+
+/*---------------
+    Vacancies
+---------------*/
+.vacancies .item
+{
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.vacancies .item + .item
+{
+    margin-top: -1px;
+}
+
+
+.vacancies .item .head
+{
+    position: relative;
+
+    padding: 10px 72px 12px 0;
+
+    cursor: pointer;
+}
+
+.vacancies .item .head .title
+{
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+
+    transition: color .2s linear;
+}
+
+.vacancies .item .head .count
+{
+    color: #898989;
+    font-size: 12px;
+    line-height: 22px;
+
+    margin-top: -2px;
+}
+
+
+.vacancies .item .head:hover .title,
+.vacancies .item.active .head .title
+{
+    color: #006cab;
+}
+
+
+.vacancies .item .data
+{
+    display: none;
+
+    padding-top: 12px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+
+.vacancies .item .vacancy + .vacancy
+{
+    margin-top: 13px;
+}
+
+.vacancies .item .vacancy .name
+{
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+
+    cursor: pointer;
+    transition: color .2s linear;
+}
+
+.vacancies .item .vacancy .name:hover,
+.vacancies .item .vacancy .name.active
+{
+    color: #006cab;
+}
+
+
+.vacancies .item .vacancy .info
+{
+    display: none;
+
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 27px 40px 40px 40px;
+
+    border: 1px solid #e6e6e6;
+}
+
+.vacancies .item .vacancy .info .section + .section
+{
+    margin-top: 18px;
+}
+
+.vacancies .item .vacancy .info .title
+{
+    color: #1a1a1a;
+    font-family: var(--font_family2);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 34px;
+
+    margin-bottom: 1px;
+
+    letter-spacing: -.05em;
+}
+
+.vacancies .item .vacancy .info .desc
+{
+    color: #898989;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.vacancies .item .vacancy .info .send
+{
+    margin-top: 38px;
+}
+
+.vacancies .item .vacancy .info .send .title
+{
+    margin-bottom: 22px;
+}
+
+.vacancies .item .vacancy .info .send .form
+{
+    --form_border_color: #fafafa;
+    --form_bg_color: #fafafa;
 }
 
 

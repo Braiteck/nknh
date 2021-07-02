@@ -86,6 +86,13 @@
     /*------------------
         Form elements
     ------------------*/
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
     .form .line
     {
         margin-bottom: 12px;
@@ -617,6 +624,34 @@
         padding: 0;
 
         border: none;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .item .vacancy .info
+    {
+        margin-top: 12px;
+        padding: 20px 24px;
+    }
+
+    .vacancies .item .vacancy .info .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    .vacancies .item .vacancy .info .send .form .bottom .agree
+    {
+        font-size: 13px;
+
+        width: 100%;
+        max-width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
     }
 
 
