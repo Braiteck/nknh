@@ -1,0 +1,19 @@
+<svg width="632" height="73" viewBox="0 0 632 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="2.5" cy="2.5" r="2.5" fill="#006CAB"/>
+<path d="M2 5H3V37H2V5Z" fill="#E6E6E6"/>
+<path d="M3 68L2 68L2 36L3 36L3 68Z" fill="#E6E6E6"/>
+<circle cx="2.5" cy="70.5" r="2.5" transform="rotate(-180 2.5 70.5)" fill="#006CAB"/>
+<path d="M2 36H630V37H2V36Z" fill="#E6E6E6"/>
+<circle cx="211.5" cy="2.5" r="2.5" fill="#006CAB"/>
+<path d="M211 5H212V37H211V5Z" fill="#E6E6E6"/>
+<path d="M212 68L211 68L211 36L212 36L212 68Z" fill="#E6E6E6"/>
+<circle cx="211.5" cy="70.5" r="2.5" transform="rotate(-180 211.5 70.5)" fill="#006CAB"/>
+<circle cx="420.5" cy="2.5" r="2.5" fill="#006CAB"/>
+<path d="M420 5H421V37H420V5Z" fill="#E6E6E6"/>
+<path d="M421 68L420 68L420 36L421 36L421 68Z" fill="#E6E6E6"/>
+<circle cx="420.5" cy="70.5" r="2.5" transform="rotate(-180 420.5 70.5)" fill="#006CAB"/>
+<circle cx="629.5" cy="2.5" r="2.5" fill="#006CAB"/>
+<path d="M629 5H630V37H629V5Z" fill="#E6E6E6"/>
+<path d="M630 68L629 68L629 36L630 36L630 68Z" fill="#E6E6E6"/>
+<circle cx="629.5" cy="70.5" r="2.5" transform="rotate(-180 629.5 70.5)" fill="#006CAB"/>
+</svg>

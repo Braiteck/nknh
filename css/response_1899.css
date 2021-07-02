@@ -1,0 +1,107 @@
+@media print, (max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu_wrap
+    {
+        position: absolute;
+        top: calc(100% + 1px);
+        right: 0;
+
+        display: none;
+
+        width: 100%;
+        padding: 0 30px;
+
+        background: #fff;
+    }
+
+    header .menu .item > a
+    {
+        height: 72px;
+    }
+
+
+    header .langs + .sep
+    {
+        display: block;
+    }
+
+
+    header .menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info .cont
+    {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+
+    footer .bottom
+    {
+        padding: 40px 0;
+    }
+
+    footer .bottom .cont
+    {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

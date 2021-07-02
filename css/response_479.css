@@ -1,0 +1,406 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title_small: 22px;
+    }
+
+
+    .cont
+    {
+        padding: 0 14px;
+    }
+
+
+
+    /*----------------
+        Top notice
+    ----------------*/
+    .top_notice
+    {
+        padding: 8px 30px 8px 14px;
+    }
+
+    .top_notice .close_btn
+    {
+        width: 26px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination a,
+    .pagination .sep
+    {
+        line-height: 35px;
+
+        width: 35px;
+        height: 35px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+
+    .page_head .mob_links .mini_modal
+    {
+        padding: 20px 14px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head,
+    .block_head.min_margin
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 100%;
+    }
+
+
+    .form .bottom .submit
+    {
+        width: 100%;
+    }
+
+    .form .bottom .agree
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 24px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .text_block .table_wrap
+    {
+        width: calc(100% + 28px);
+        max-width: calc(100% + 28px);
+        margin-right: -14px;
+        margin-left: -14px;
+    }
+
+    .text_block table th,
+    .text_block table td
+    {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    .text_block table th:last-child,
+    .text_block table td:last-child
+    {
+        padding-right: 14px;
+    }
+
+
+    .text_block .info_block .info
+    {
+        width: 100%;
+        padding: 50px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .title
+    {
+        font-size: 34px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head .sep
+    {
+        display: none;
+    }
+
+    .article_info .head .category
+    {
+        width: calc(100% - 16px);
+    }
+
+
+
+    /*-----------
+        About
+    -----------*/
+    .about .row
+    {
+        margin-left: 0;
+    }
+
+    .about .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------------
+        Links carousel
+    --------------------*/
+    .links_carousel .swiper-container
+    {
+        padding: 0 52px;
+    }
+
+
+
+    /*------------
+        Gallery
+    ------------*/
+    .gallery .row
+    {
+        margin-bottom: -14px;
+        margin-left: -14px;
+    }
+
+    .gallery .row > *
+    {
+        width: calc(50% - 14px);
+        margin-bottom: 14px;
+        margin-left: 14px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -14px;
+    }
+
+    .articles .row > *
+    {
+        margin-bottom: 14px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    .articles .article .info .name
+    {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    ------------------*/
+    .contacts_info .location .title
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*---------------
+        Directors
+    ---------------*/
+    .directors .row
+    {
+        margin-bottom: -32px;
+        margin-left: -14px;
+    }
+
+    .directors .row > *
+    {
+        width: calc(50% - 14px);
+        margin-bottom: 32px;
+        margin-left: 14px;
+    }
+
+
+    .directors .item
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .directors .item .photo
+    {
+        margin-bottom: 12px;
+    }
+
+
+
+    /*----------------
+        Newspapers
+    ----------------*/
+    .newspapers .row > *
+    {
+        width: calc(50% - 14px);
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photogallery .row
+    {
+        margin-left: 0;
+    }
+
+    .photogallery .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------
+        Products
+    -------------*/
+    .products .categories .row > *
+    {
+        width: calc(50% - 14px);
+    }
+
+
+    .products .categories .item
+    {
+        padding: 14px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .row
+    {
+        margin-left: -14px;
+    }
+
+    .team .row > *
+    {
+        width: calc(50% - 14px);
+        margin-left: 14px;
+    }
+
+
+
+    /*--------------------
+        Structure info
+    --------------------*/
+    .structure_info .companies_list .company .name
+    {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .structure_info .companies_list .company .link
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info
+    {
+        padding: 32px 0;
+    }
+
+
+    footer .info .cont
+    {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 14px;
+    }
+
+
+
+    .modal
+    {
+        padding: 48px 18px 32px;
+    }
+}

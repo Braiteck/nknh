@@ -1,0 +1,464 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+    .content_flex .content > .border_top
+    {
+        margin-top: 60px;
+        padding-top: 24px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        font-size: 0;
+
+        display: block;
+        overflow: auto;
+
+        margin-bottom: 32px;
+        margin-left: 0;
+
+        white-space: nowrap;
+
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .tabs::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .tabs::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .tabs > *
+    {
+        width: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .tabs > * + *
+    {
+        margin-left: 30px;
+    }
+
+    .tabs button
+    {
+        position: relative;
+
+        display: inline-block;
+
+        padding: 12px 0;
+
+        vertical-align: top;
+
+        border: none;
+    }
+
+    .tabs button:after
+    {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        width: 0;
+        height: 2px;
+        margin: auto;
+
+        content: '';
+        transition: width .3s linear;
+
+        background: #006cab;
+    }
+
+    .tabs button:hover,
+    .tabs button.active
+    {
+        color: #006cab;
+
+        border-color: none;
+        background: none;
+    }
+
+    .tabs button.active:after
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+    header
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+
+    .page_head .mob_links
+    {
+        display: block;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .block_head .title
+    {
+        line-height: calc(var(--font_size_title) + 4px);
+    }
+
+    .block_head .title.small
+    {
+        line-height: calc(var(--font_size_title_small) + 6px);
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .main_slider .slide .cont
+    {
+        min-height: 500px;
+        padding-top: 60px;
+        padding-bottom: 72px;
+    }
+
+
+    .main_slider .slide .title
+    {
+        font-size: 44px;
+    }
+
+    .main_slider .slide .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 28px;
+    }
+
+
+
+    /*-----------
+        About
+    -----------*/
+    .about .block_head .title
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .about .block_head .desc
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+    .about .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .grid
+    {
+        grid-gap: 14px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .articles .grid > *.big
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 4;
+    }
+
+
+
+    .articles .article .info
+    {
+        padding: 20px 24px;
+    }
+
+    .articles .article .info .name
+    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    ------------------*/
+    .contacts_info .location
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .contacts_info .location .title
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        margin-bottom: 4px;
+    }
+
+
+    .contacts_info .phones .name,
+    .contacts_info .phones .contacts
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    /*---------------------
+        Tech connection
+    ---------------------*/
+    .tech_connection .list .item
+    {
+        padding: 23px 0 23px 40px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info
+    {
+        padding-top: 40px;
+    }
+
+    footer .info .row
+    {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    footer .info .row > *
+    {
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+
+    footer .bottom
+    {
+        padding-top: 0;
+
+        border: none;
+    }
+
+
+
+    footer .info .item
+    {
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    footer .info .item + .item
+    {
+        margin-top: 0;
+    }
+
+
+
+    footer .info .title
+    {
+        line-height: 48px;
+
+        cursor: pointer;
+        text-align: center;
+    }
+
+    footer .info .title span
+    {
+        position: relative;
+
+        display: inline-block;
+
+        padding-right: 15px;
+
+        vertical-align: top;
+    }
+
+    footer .info .title span:after
+    {
+        position: absolute;
+        top: -2px;
+        right: 1px;
+        bottom: 0;
+
+        display: block;
+
+        width: 6px;
+        height: 6px;
+        margin: auto;
+
+        content: '';
+        transition: .2s linear;
+        transform: rotate(-45deg);
+
+        border-bottom: 1px solid;
+        border-left: 1px solid;
+    }
+
+
+    footer .info .title.active
+    {
+        color: #006cab;
+    }
+
+    footer .info .title.active span:after
+    {
+        top: 3px;
+
+        transform: rotate(-225deg);
+    }
+
+
+
+    footer .info .links
+    {
+        display: none;
+
+        margin-top: 4px;
+        padding-bottom: 16px;
+
+        text-align: center;
+    }
+
+
+    footer .info .contacts .data
+    {
+        display: none;
+
+        margin-top: 4px;
+        padding-bottom: 16px;
+
+        text-align: center;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .socials
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 30px;
+    }
+
+
+
+    .director_info .info
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+}
